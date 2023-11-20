@@ -1,0 +1,75 @@
+* { margin: 0%;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    background-color: rgb(230, 213, 68);
+    padding: 15px;
+    height: 150px;
+    font-size: 45px;
+    font-weight: bold;
+}
+body{ background-color: rgba(197, 174, 40, 0.616);
+background-repeat: no-repeat;
+background-size: cover;}
+
+.head1{
+    color: rgb(141, 120, 28);
+   font-style: italic;
+   font-size: 79px;
+   align-content: center;
+   padding-right: 200px;
+}
+.container img{
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+}
+nav ul :hover{
+    color: rgb(100, 94, 122);
+
+}
+nav ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    list-style: none;
+    padding-right: 150px;
+    
+}
+nav li{
+    color: rgb(248, 243, 236);
+    font-weight: lighter;
+    justify-content: center;
+    padding: 10px;
+}
+.sect2 {
+    color: rgb(211, 186, 46);
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgba(191, 231, 231, 0.466);
+    margin: 25px 450px;
+        padding: 20px;
+        width: 30vw;
+        height: 60vh;
+        border-radius: 20px;
+
+}
+.par{
+    color: rgb(247, 245, 233);
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+button{
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+    background-color: rgb(233, 220, 44);
+    border-radius: 200px;
+    border-color: rgb(207, 190, 33);
+}
